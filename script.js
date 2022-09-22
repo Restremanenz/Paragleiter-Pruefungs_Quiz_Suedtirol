@@ -93,7 +93,7 @@ const questions = [
     answers: [
       { text: 'Der Pilot', correct: true },
       { text: 'der Pilot, aber nur wenn er über ausreichende Erfahrung verfügt', correct: false },
-      { text: 'das Amt für die Luftfahrtkontrolle', correct: true }
+      { text: 'das Amt für die Luftfahrtkontrolle', correct: false }
     ]
   },
   {
@@ -285,8 +285,8 @@ const questions = [
   {
     question: '1024    Was ist ein TMA?',
     answers: [
-      { text: '1.   Ein Teil des Luftraumes, der für Militärflüge reserviert ist,', correct: true },
-      { text: '2.   ein Teil des kontrollierten Luftraumes,', correct: false },
+      { text: '1.   Ein Teil des Luftraumes, der für Militärflüge reserviert ist,', correct: false },
+      { text: '2.   ein Teil des kontrollierten Luftraumes,', correct: true },
       { text: '3.   ein nicht kontrollierter Luftraum.', correct: false }
     ]
   },
@@ -563,9 +563,9 @@ const questions = [
   {
     question: '2017    Warum bezieht man sich auch auf die Wirbelströmung, wenn die Rede von Aerodynamik ist?',
     answers: [
-      { text: '1.   Weil das in der Physik gebräuchlich ist.', correct: false },
+      { text: '1.   Weil das in der Physik gebräuchlich ist.', correct: true },
       { text: '2.   Die Wirbelströmung gibt es nicht.', correct: false },
-      { text: '3.   Weil sich im Flug sämtliche Kräfte innerhalb der Wirbelströmung abspielen.', correct: true }
+      { text: '3.   Weil sich im Flug sämtliche Kräfte innerhalb der Wirbelströmung abspielen.', correct: false }
     ]
   },
   {
@@ -577,7 +577,7 @@ const questions = [
     ]
   },
   {
-    question: '2019    Innerhalb der Wirbelströmung:',
+    question: '2019 Innerhalb der Wirbelströmung:',
     answers: [
       { text: '1.   verwirbelt jeder Körper die Strömung.', correct: true },
       { text: '2.   Ein Körper mit günstiger Form erzeugt keine Verwirbelungen.', correct: false },
@@ -816,10 +816,10 @@ const questions = [
     question: '2047 Wie lautet die Formel des Widerstandes W?',
     answers: [
       {
-        text: '1. W = ½ ρ S Cw v', correct: true
+        text: '1. W = ½ ρ S Cw v²', correct: true
       },
       {
-        text: '2. W = ½ ρ S Cw v', correct: false
+        text: '2. W = ½ ρ S² Cw v', correct: false
       },
       { text: '3. W = ½ ρ S Cw v', correct: false }
     ]
@@ -1039,13 +1039,13 @@ const questions = [
     ]
   },
   {
-    question: '2074    Wie lautet die Formel für den Auftrieb A?',
+    question: '2074 Wie lautet die Formel für den Auftrieb A?',
     answers: [
       {
-        text: '1.   A = ½ ρ S Ca v', correct: false
+        text: '1. A = ½ ρ S² Ca v', correct: false
       },
-      { text: '2.   A = ½ ρ S Ca v2', correct: true },
-      { text: '3.   A = ½ ρ S Ca v', correct: false }
+      { text: '2. A = ½ ρ S Ca v²', correct: true },
+      { text: '3. A = ½ ρ S Ca v', correct: false }
     ]
   },
   {
@@ -1059,10 +1059,10 @@ const questions = [
   {
     question: '2076    Hat die Profilhöhe Einfluss auf Auftrieb und Widerstand?',
     answers: [
-      { text: '1.   Ja, beim Erhöhen des Profils nimmt der Auftrieb zu und der Widerstand nimmt ab,', correct: false },
-      { text: '2. ja, beim Erhöhen des Profils nehmen Auftrieb und Widerstand zu,', correct: true },
+      { text: '1. Ja, beim Erhöhen des Profils nimmt der Auftrieb zu und der Widerstand nimmt ab,', correct: false },
+      { text: '2. Ja, beim Erhöhen des Profils nehmen Auftrieb und Widerstand zu,', correct: true },
       {
-        text: '3. ja, der Auftrieb nimmt zu und der Widerstand bleibt gleich.', correct: false
+        text: '3. Ja, der Auftrieb nimmt zu und der Widerstand bleibt gleich.', correct: false
       }
     ]
   },
@@ -1161,11 +1161,11 @@ const questions = [
     ]
   },
   {
-    question: '2088    Die Energie (Schubkraft) beim Sport- und Wanderflug entsteht:',
+    question: '2088 Die Energie (Schubkraft) beim Sport- und Wanderflug entsteht:',
     answers: [
-      { text: '1.   durch natürliche und aerodynamische Kräfte,', correct: false },
-      { text: '2.   durch die Gewichtskraft,', correct: true },
-      { text: '3.   durch die kinetische Trägheit.', correct: false }
+      { text: '1. Durch natürliche und aerodynamische Kräfte,', correct: false },
+      { text: '2. Durch die Gewichtskraft,', correct: true },
+      { text: '3. Durch die kinetische Trägheit.', correct: false }
     ]
   },
   {
@@ -1177,19 +1177,19 @@ const questions = [
     ]
   },
   {
-    question: '2090    Was versteht man unter Vortrieb bzw. Schubkraft?',
+    question: '2090 Was versteht man unter Vortrieb bzw. Schubkraft?',
     answers: [
-      { text: '1.   Eine Komponente der Gewichtskraft, die längs der Flugbahn wirkt,', correct: true },
-      { text: '2.   eine Komponente der Gewichtskraft, die rechtwinklig zur Flugbahn wirkt.', correct: false },
-      { text: '3.   eine Kraft, die nicht vom Gewicht abhängig ist.', correct: false }
+      { text: '1. Eine Komponente der Gewichtskraft, die längs der Flugbahn wirkt,', correct: true },
+      { text: '2. Eine Komponente der Gewichtskraft, die rechtwinklig zur Flugbahn wirkt.', correct: false },
+      { text: '3. Eine Kraft, die nicht vom Gewicht abhängig ist.', correct: false }
     ]
   },
   {
-    question: '2091    Wie kann man im Flug den Vortrieb verändern?',
+    question: '2091 Wie kann man im Flug den Vortrieb verändern?',
     answers: [
-      { text: '1.   Er kann nicht verändert werden,', correct: false },
-      { text: '2.   durch Verändern des Neigungswinkels,', correct: true },
-      { text: '3.   nur durch Verändern des Widerstandes.', correct: false }
+      { text: '1. Er kann nicht verändert werden,', correct: false },
+      { text: '2. Durch Verändern des Neigungswinkels,', correct: true },
+      { text: '3. Nur durch Verändern des Widerstandes.', correct: false }
     ]
   },
   {
@@ -1388,7 +1388,7 @@ const questions = [
   {
     question: '2115    Beim Verändern der Flächenbelastung ohne Flächenverformung und bei Windstille:',
     answers: [
-      { text: '1.   verändert sich nur der Gleitwinkel,', correct: true },
+      { text: '1.   verändert sich nur der Gleitwinkel,', correct: false },
       { text: '2.   verändern sich der Gleitwinkel und die Fluggeschwindigkeit, aber das Sinken bleibt gleich.', correct: false },
       { text: '3.   verändern sich die Fluggeschwindigkeit und das Sinken, aber der Gleitwinkel bleibt identisch.', correct: true }
     ]
@@ -1422,27 +1422,27 @@ const questions = [
     ]
   },
   {
-    question: '2119    Stabile horizontale Flugbahnen können beim Sport- und Wanderflug realisiert werden:',
+    question: '2119 Stabile horizontale Flugbahnen können beim Sport- und Wanderflug realisiert werden:',
     answers: [
       { text: '1.   nur gegenüber dem Boden, mit starkem Rückenwind,', correct: false },
-      { text: '2.   nur gegenüber dem Boden, mit aufsteigenden Luftmassen,', correct: false },
-      { text: '3.   nur gegenüber dem Boden, bei Windstille.', correct: true }
+      { text: '2.   nur gegenüber dem Boden, mit aufsteigenden Luftmassen,', correct: true },
+      { text: '3.   nur gegenüber dem Boden, bei Windstille.', correct: false }
     ]
   },
   {
-    question: '2120    Die Polare eines Flügels ist eine grafische Darstellung:',
+    question: '2120 Die Polare eines Flügels ist eine grafische Darstellung:',
     answers: [
-      { text: '1.   der Geschwindigkeit über Grund bei verschiedenen Anstellwinkeln,', correct: true },
+      { text: '1.   der Geschwindigkeit über Grund bei verschiedenen Anstellwinkeln,', correct: false },
       { text: '2.   des Auftriebs- und Widerstandskoeffizienten beim Verändern des Neigungswinkels,', correct: false },
-      { text: '3.   des Auftriebs- und Widerstandskoeffizienten beim Verändern des Anstellwinkels.', correct: false }
+      { text: '3.   des Auftriebs- und Widerstandskoeffizienten beim Verändern des Anstellwinkels.', correct: true }
     ]
   },
   {
     question: '2121    Was ist eine Geschwindigkeitspolare?',
     answers: [
-      { text: '1.   Eine grafische Darstellung der horizontalen und vertikalen Geschwindigkeit bei verschiedenen Anstellwinkeln,', correct: false },
+      { text: '1.   Eine grafische Darstellung der horizontalen und vertikalen Geschwindigkeit bei verschiedenen Anstellwinkeln,', correct: true },
       { text: '2.   eine grafische Darstellung des Auftriebs und des Widerstandes bei verschiedenen Anstellwinkeln,', correct: false },
-      { text: '3.   eine grafische Darstellung des Vortriebs und des Widerstandes bei verschiedenen Anstellwinkeln.', correct: true }
+      { text: '3.   eine grafische Darstellung des Vortriebs und des Widerstandes bei verschiedenen Anstellwinkeln.', correct: false }
     ]
   },
   {
@@ -1462,18 +1462,18 @@ const questions = [
     ]
   },
   {
-    question: '2124    Ein Flügel fliegt, laut der Polaren, das geringste Sinken:',
+    question: '2124 Ein Flügel fliegt, laut der Polaren, das geringste Sinken:',
     answers: [
-      { text: '1.   mit dem Anstellwinkel des geringsten Auftriebs,', correct: true },
-      { text: '2.   mit dem Anstellwinkel des besten Gleitens bei Windstille,', correct: false },
-      { text: '3.   mit einem höheren Anstellwinkel als der des besten Gleitens bei Windstille.', correct: false }
+      { text: '1. Mit dem Anstellwinkel des geringsten Auftriebs,', correct: false },
+      { text: '2. Mit dem Anstellwinkel des besten Gleitens bei Windstille,', correct: false },
+      { text: '3. Mit einem höheren Anstellwinkel als der des besten Gleitens bei Windstille.', correct: true }
     ]
   },
   {
     question: '2125    Beim Fliegen mit Höchstgeschwindigkeit:',
     answers: [
-      { text: '1.   ist der Widerstand größer als beim Fliegen des besten Gleitens,', correct: false },
-      { text: '2.   ist der Anstellwinkel größer als der des besten Gleitens,', correct: true },
+      { text: '1.   ist der Widerstand größer als beim Fliegen des besten Gleitens,', correct: true },
+      { text: '2.   ist der Anstellwinkel größer als der des besten Gleitens,', correct: false },
       { text: '3.   ist der Anstellwinkel auf seinem höchsten Punkt.', correct: false }
     ]
   },
@@ -2459,7 +2459,7 @@ const questions = [
     ]
   },
   {
-    question: '5065   Was geschieht, wenn eine feuchte Luftmasse, die in labiler Luft zu steigen beginnt, weil sie stärker erwärmt wurde als die Außenluft, den Kondensationspunkt erreicht?',
+    question: '5065 Was geschieht, wenn eine feuchte Luftmasse, die in labiler Luft zu steigen beginnt, weil sie stärker erwärmt wurde als die Außenluft, den Kondensationspunkt erreicht?',
     answers: [
       { text: '1. Sie wird schneller steigen,', correct: true },
       { text: '2. sie wird stehen bleiben,', correct: false },
@@ -2467,19 +2467,19 @@ const questions = [
     ]
   },
   {
-    question: '5066    Wen ein Luftpaket innerhalb stabiler Luftmassen steigt, dann wird es:',
+    question: '5066 Wenn ein Luftpaket innerhalb stabiler Luftmassen steigt, dann wird es:',
     answers: [
-      { text: '1.   steigen und immer mehr beschleunigen,', correct: false },
-      { text: '2.   mindestens bis zum Kondensationspunkt steigen,', correct: false },
-      { text: '3.   es steigt bis zum erreichen der Außentemperatur.', correct: true }
+      { text: '1. Steigen und immer mehr beschleunigen,', correct: false },
+      { text: '2. Mindestens bis zum Kondensationspunkt steigen,', correct: false },
+      { text: '3. Es steigt bis zum erreichen der Außentemperatur.', correct: true }
     ]
   },
   {
-    question: '5067    Wozu kann es bei starker Bodenerwärmung und feuchten und sehr labilen Luftmassen führen?',
+    question: '5067 Wozu kann es bei starker Bodenerwärmung und feuchten und sehr labilen Luftmassen führen?',
     answers: [
-      { text: '1.   Zu stark aufsteigenden Luftmassen (Thermik) und Cumulusaufbau,', correct: true },
-      { text: '2.   zu stark aufsteigender Thermik ohne Entwicklung von Cumuluswolken,', correct: false },
-      { text: '3.   zur Bildung von stratifizierter Bewölkung und Nebel.', correct: false }
+      { text: '1. Zu stark aufsteigenden Luftmassen (Thermik) und Cumulusaufbau,', correct: true },
+      { text: '2. Zu stark aufsteigender Thermik ohne Entwicklung von Cumuluswolken,', correct: false },
+      { text: '3. Zur Bildung von stratifizierter Bewölkung und Nebel.', correct: false }
     ]
   },
   {
@@ -3059,17 +3059,17 @@ const questions = [
   {
     question: '6019 Wir fliegen bei starkem Wind Richtung SÜDEN. Auf dem Bildschirm des GPS lesen wir jedoch eine Geschwindigkeit ab von 3 km/h Richtung NORDEN. Was ist los?',
     answers: [
-      { text: '1. Das Gerät ist offensichtlich kaputt,', correct: false },
-      { text: '2. wenn ich sicher bin, das mein Fluggerät in Richtung Süden ausgerichtet ist, dann bedeutet das, dass ich rückwärts fliege. Der Wind ist stärker als meine Geschwindigkeit gegenüber der Luft und ich muss so schnell wiemöglich meine Geschwindigkeit erhöhen,', correct: true },
-      { text: '3. eine solche Situation kann sich nicht ereignen.', correct: false }
+      { text: '1. Das Gerät ist offensichtlich kaputt', correct: false },
+      { text: '2. Wenn ich sicher bin, das mein Fluggerät in Richtung Süden ausgerichtet ist, dann bedeutet das, dass ich rückwärts fliege. Der Wind ist stärker als meine Geschwindigkeit gegenüber der Luft und ich muss so schnell wiemöglich meine Geschwindigkeit erhöhen', correct: true },
+      { text: '3. Eine solche Situation kann sich nicht ereignen', correct: false }
     ]
   },
   {
     question: '6020 Wie funktioniert ein GPS-Gerät?',
     answers: [
-      { text: '1. Es berechnet die Position im Luftraum mittels eines Bewegungssensors,', correct: false },
-      { text: '2. es berechnet die Position im Luftraum durch kronometrischemVergleich mit den Signalen, von einigen Satellitenauf ihrer Bahn um die Erde,', correct: true },
-      { text: '3. es berechnet die Position im Raum mittels eines Differentialbarometers.', correct: false }
+      { text: '1. Es berechnet die Position im Luftraum mittels eines Bewegungssensors', correct: false },
+      { text: '2. Es berechnet die Position im Luftraum durch kronometrischem Vergleich mit den Signalen, von einigen Satellitenauf ihrer Bahn um die Erde', correct: true },
+      { text: '3. Es berechnet die Position im Raum mittels eines Differentialbarometers', correct: false }
     ]
   },
   {
@@ -3867,6 +3867,366 @@ const questions = [
       { text: '3. nur bei Fallgeschwindigkeiten gleich den maximalen Fallgeschwindigkeiten von Drachen und Gleitschirmen.', correct: false }
     ]
   },
+  {
+    question: '9001 Die Sicherheit beim Drachen- und Gleitschirmfliegen hängt stark vom Verhältnis zwischen der Erfahrung des Piloten und den Eigenschaften des verwendeten Gerätes ab:',
+    answers: [
+      { text: '1. ja,', correct: true },
+      { text: '2. bestimmt nicht,', correct: false },
+      { text: '3. ja, aber nur beim Fliegen in starken Wetterbedingungen.', correct: false }
+    ]
+  },
+  {
+    question: '9002 Die Sicherheit beim Drachen- und Gleitschirmfliegen hängt unter anderem auch vom Verhältnis zwischen der Erfahrung des Piloten und den meteorologischen Bedingungen ab:',
+    answers: [
+      { text: '1. bestimmt nicht,', correct: false },
+      { text: '2. ja,', correct: true },
+      { text: '3. ja, aber nur beim Streckenfliegen.', correct: false }
+    ]
+  },
+  {
+    question: '9003 Wie sollten wir uns bezüglich der Sicherheit beim Fliegen verhalten, wenn uns der Kauf eines homologierten Fluggerätes angeboten wird, an dem zur Verbesserung der Flugeigenschaften einige Veränderungen angebracht worden sind?',
+    answers: [
+      { text: '1. Das Gerät eventuell kaufen, aber nur nach einem Probeflug bis an die Grenzleistungen,', correct: false },
+      { text: '2. das Gerät nur kaufen, wenn wir den Anbieter gut kennen,', correct: false },
+      { text: '3. das Angebot ablehnen und nur ein homologiertes Originalmodell kaufen.', correct: true }
+    ]
+  },
+  {
+    question: '9004 Wann sollte die periodische Revision von Fluggeräten durchgeführt werden?',
+    answers: [
+      { text: '1. Wenn man Leistungsveränderungen oder Anomalien des Geräts bemerkt,', correct: false },
+      { text: '2. periodisch, in vom Hersteller vorgeschriebenen Zeiträumen, weil sich die Materialeigenschaften auch durch das Altern des Materials verändern,', correct: true },
+      { text: '3. periodisch, in vom Hersteller vorgeschriebenen Zeiträumen, wenn man häufig fliegt, weniger oft, wenn man nicht soviel fliegt, Hauptsache man achtet gut auf das Material.', correct: false }
+    ]
+  },
+  {
+    question: '9005     Die Sicherheitskontrollen vor dem Flug zu unterlassen:',
+    answers: [
+      { text: '1. ist auf jeden Fall gefährlich,', correct: true },
+      { text: '2. ist technisch nicht korrekt,', correct: false },
+      { text: '3. ist nicht gefährlich, wenn man genügend Erfahrung besitzt.', correct: false }
+    ]
+  },
+  {
+    question: '9006 Wenn man zweifelt, ob man fliegen sollte, obwohl man die Meinung eines erfahrenen Piloten gehört hat, sollte man:',
+    answers: [
+      { text: '1. die Unsicherheit überwinden und fliegen, um Erfahrung zu sammeln,', correct: false },
+      { text: '2. noch weitere Piloten befragen, bevor man fliegt,', correct: false },
+      { text: '3. die eigenen Zweifel als guten und ausreichenden Grund ansehen, um nicht zu fliegen.', correct: true }
+    ]
+  },
+  {
+    question: '9007 Warum sollte ein Pilot mit geringer Erfahrung keinen Schirm mit hoher Leistung fliegen, auch wenn erfahrene Piloten ihn als sicher und leicht zu fliegen ansehen?',
+    answers: [
+      { text: '1. Weil Hochleistungsschirme nicht sicher sind, auch wenn man es nicht zugibt,', correct: false },
+      { text: '2. die Sicherheit beim Fliegen hängt stark von dem Verhältnis zwischen der Erfahrung des Piloten und der Leistung des Schirmes ab, dieses muss sehr ausgewogen sein,', correct: true },
+      { text: '3. weil er trotz sicheren Fliegens diese Leistung nicht ausnützen könnte.', correct: false }
+    ]
+  },
+  {
+    question: '9008 Ihr befindet euch am Startplatz eines Fluggebietes, das ihr nicht kennt. Trotz starker Konditionen starten alle gut. Wie solltet ihr euch hinsichtlich der Sicherheit verhalten?',
+    answers: [
+      { text: '1. Abwarten, bis die Konditionen ruhiger werden und dann fliegen, unter Berücksichtigung der Ratschläge jener Person, die euch am erfahrensten und ausgewogensten erscheinen,', correct: true },
+      { text: '2. sich zum Fliegen vorbereiten, nachdem ihr die Ratschläge der Ortskundigen eingeholt habt,', correct: false },
+      { text: '3. sich zum Fliegen vorbereiten und das Gleiche tun, was die Ortskundigen tun, um Erfahrung zu sammeln.', correct: false }
+    ]
+  },
+  {
+    question: '9009 Warum ist ein Start mit Rückenwind gefährlich?',
+    answers: [
+      { text: '1. Nur weil die Flugbahn nach dem Start zu steil ist,', correct: false },
+      { text: '2. wegen der zu großen Geschwindigkeit, die der Pilot beim Anlaufen erreichen muss und dem eventuell starken Sinkens nach dem Start,', correct: true },
+      { text: '3. es können Probleme für die Autostabilität des Fluggerätes auftreten.', correct: false }
+    ]
+  },
+  {
+    question: '9010     Ein Klippenstart mit einem Gleitschirm ist:',
+    answers: [
+      { text: '1. auch bei gut aufgeblasenem Segel sehr gefährlich,', correct: true },
+      { text: '2. technisch eher schwierig,', correct: false },
+      { text: '3. bei genügend Erfahrung kein Problem.', correct: false }
+    ]
+  },
+  {
+    question: '9011    An einem Tag mit sehr labilem und starkem Thermikwetter ist auf folgende Gefahr zu achten:',
+    answers: [
+      { text: '1. dass jeden Moment der Blitz auf das Gerät einschlagen könnte,', correct: false },
+      { text: '2. dass das Steigen so stark ist, dass es unangenehme Turbulenzen mit sich bringt,', correct: false },
+      { text: '3. dass das Steigen so stark wird, dass das Fluggerät schlecht steuerbar wird und sogar die Gefahr besteht, von Cumulus-Wolken aufgesaugt zu werden.', correct: true }
+    ]
+  },
+  {
+    question: '9012    Welche Gefahr besteht beim Fliegen in Wolken oder Nebel?',
+    answers: [
+      { text: '1. Nur die, mit anderen Fluggeräten in Kollision zu geraten,', correct: false },
+      { text: '2. dass sich Eis auf der Anströmkante bildet und die Leistung reduziert wird,', correct: false },
+      { text: '3. dass man die Orientierung und die Kontrolle über das Fluggerät verliert, da die Gleichgewichtsorgane ohne visuelle Anhaltspunkte schlecht funktionieren.', correct: true }
+    ]
+  },
+  {
+    question: '9013 Der „Wind shear“ ist besonders für den SWF gefährlich. Was versteht man darunter?',
+    answers: [
+      { text: '1. Nur eine plötzliche Zunahme der Windstärke,', correct: false },
+      { text: '2. eine plötzliche Änderung der Windrichtung und/oder der Windgeschwindigkeit,', correct: true },
+      { text: '3. eine plötzliche Zunahme des relativen Windes.', correct: false }
+    ]
+  },
+  {
+    question: '9014 Wir fliegen gegen einen starken Wind, der unsere Vorwärtsbewegung über Grund annulliert. Was passiert, wenn dieser Wind plötzlich nachlässt?',
+    answers: [
+      { text: '1. Wir sind so lange im Stall, bis das Fluggerät wieder die nötige Fluggeschwindigkeit aufgenommen hat,', correct: true },
+      { text: '2. der Flügel fliegt gleich schnell weiter,', correct: false },
+      { text: '3. man hat keine aerodynamischen Probleme.', correct: false }
+    ]
+  },
+  {
+    question: '9015 Was versteht man unter einer ungewöhnlichen Konfiguration eines Drachens oder Gleitschirms?',
+    answers: [
+      { text: '1. Eine Situation, die normal für den Flügel, aber neu für den Piloten ist,', correct: false },
+      { text: '2. eine ungewöhnliche Situation des Flügels, außerhalb der vorgesehenen Grenzen der Leistung und der Manövrierbarkeit,', correct: true },
+      { text: '3. eine Flugsituation an der Stall-Grenze.', correct: false }
+    ]
+  },
+  {
+    question: '9016 Ein zertifiziertes Fluggerät bietet gegenüber einem nicht zertifizierten folgende Garantien:',
+    answers: [
+      { text: '1. die Reaktionen des zertifizierten Flügels sind immer kontrollierbar und ungefährlich, die des nicht zertifizierten sind gefährlich,', correct: false },
+      { text: '2. die Reaktionen des nicht zertifizierten Gerätes sind nicht bekannt, jene des zertifizierten Gerätes sind bekannt (bezüglich der Homologierung des Gerätes),', correct: true },
+      { text: '3. ein zertifiziertes Gerät eignet sich für den Durchschnittspiloten, die nicht zertifizierten Geräte nur für Wettkampfpiloten.', correct: false }
+    ]
+  },
+  {
+    question: '9017   Warum kann ein langes und enges Tal bei einem Streckenflug für den Drachen- und Gleitschirmpiloten zu einer Falle werden?',
+    answers: [
+      { text: '1. Weil es da keine Aufwinde gibt,', correct: false },
+      { text: '2. der Wind in einem engen Tal bewirkt einen Düseneffekt, besonders im Talboden kann es starke Winde und Turbulenzen geben,', correct: true },
+      { text: '3. meistens gibt es im Talboden keine geeigneten Landeplätze, unabhängig vom Wind.', correct: false }
+    ]
+  },
+  {
+    question: '9018    Ist das Landen bei starkem Wind auf der Leeseite von Hindernissen gefährlich?',
+    answers: [
+      { text: '1.   Die Landung ist möglich, aber schwierig für unerfahrene Piloten,', correct: false },
+      { text: '2.   nur sehr erfahrene Piloten können bei solchen Konditionen landen,', correct: false },
+      { text: '3.   die Landung ist auch für sehr erfahrene Piloten gefährlich, weil man die Auswirkungen dieser Konditionen überhaupt nicht vorhersehen kann.', correct: true }
+    ]
+  },
+  {
+    question: '9019   Wie sollten wir uns verhalten, wenn der Wind beim Landen so stark ist, dass unser Vorwärtskommen behindert wird?',
+    answers: [
+      { text: '1. Den Landeanflug mit der „Achtertechnik“ durchführen, dadurch erhalten wir eine gewisse Geschwindigkeit über Grund, das gibt Sicherheit in Bodennähe,', correct: true },
+      { text: '2. die Platzrunde fliegen, so müssen wir weniger kurven und brauchen nicht an das Vorwärtskommen zu denken,', correct: false },
+      { text: '3. die „Achter“ fliegen und rückwärts oder mit einer senkrechten Bahn landen, wenn wir es nicht vermeiden können.', correct: false }
+    ]
+  },
+  {
+    question: '9020   Der Wind hat zugenommen, wir erreichen die Landewiese nicht mehr und müssen im Wald notlanden. Wie verhalten wir uns am besten?',
+    answers: [
+      { text: '1. Wir landen gegen den Wind in die Baumkronen und schützen dabei den Körper mit Armen und Beinen. Sobald wir zum Stillstand gekommen sind, halten wir uns am ersten Ast fest,', correct: true },
+      { text: '2. wir landen gegen den Wind zwischen zwei Baumstämmen,', correct: false },
+      { text: '3. wir machen eine Steilspirale über eine Lichtung und versuchen dort zu landen, unabhängig vom Wind.', correct: false }
+    ]
+  },
+  {
+    question: '9021    Uns steht eine unvermeidbare Wasserlandung bevor. Wie verhalten wir uns?',
+    answers: [
+      { text: '1.   Erst nach der Landung öffnen wir das Gurtzeug,', correct: false },
+      { text: '2.   wir sollten schon vor der Landung das Gurtzeug zum Teil öffnen, um uns im Wasser schnell befreien zu können,', correct: true },
+      { text: '3.   wir landen entlang der Wellen.', correct: false }
+    ]
+  },
+  {
+    question: '9022    Warum muss die Steuerung in Bodennähe besonders sanft und genau sein?',
+    answers: [
+      { text: '1.   Weil starke Pendelbewegungen starkes Sinken zu Folge haben und auch mit Bodenkontakt enden können,', correct: true },
+      { text: '2.   weil der Flügel in Bodennähe wegen der dichteren Luft stärker reagiert,', correct: false },
+      { text: '3.   weil der Bodeneffekt die Autostabilität des Fluggerätes beeinträchtigen kann.', correct: false }
+    ]
+  },
+  {
+    question: '9023    Welche Folgen kann ein Nichtzuschnallen der Beinschleifen beim Flug mit einem Gleitschirm haben?',
+    answers: [
+      { text: '1.   Höchstens ein unbequemes Sitzen, aber der Brustgurt hält,', correct: false },
+      { text: '2.   große Gefahr, durch das Gurtzeug zu fallen,', correct: true },
+      { text: '3.   nur dann eine Gefahr, wenn man sich nicht rechtzeitig an den Leinen halten kann.', correct: false }
+    ]
+  },
+  {
+    question: '9024 Was sollte man tun, wenn man gleich nach dem Start bemerkt, dass der Schirm sich nicht richtig geöffnet hat?',
+    answers: [
+      { text: '1. Schneller laufen und leicht die Bremsen ziehen, damit der Schirm sich vor dem Abheben öffnet,', correct: false },
+      { text: '2. die Bremsen ziehen und den Start abbrechen, denn der Gleitschirm lässt einen ungefährlichen Startabbruch zu,', correct: true },
+      { text: '3. den Start fortsetzen und gleich danach mit den Steuerleinen die normale Flugkonfiguration wiederherstellen.', correct: false }
+    ]
+  },
+  {
+    question: '9025     Erhöht es die Sicherheit, wenn man vorzeitig die für den Flug spezifische Wettervorhersage einholt?',
+    answers: [
+      { text: '1.   Nein, denn die örtliche Wetterlage kann nur vor Ort eingeschätzt werden,', correct: false },
+      { text: '2.   ja, denn eine positive Vorhersage garantiert einen sicheren Flug,', correct: false },
+      { text: 'ja, dadurch erhält man wichtige Informationen für die Einschätzung der Wetterlage und ihrer möglichen Entwicklung.', correct: true }
+    ]
+  },
+  {
+    question: '9026   Was kann passieren, wenn wir mit einer „Krawatte“ starten, weil wir beim Auslegen nicht bemerkt haben, dass eine oder mehrere Leinen unter die Austrittskante des Flügels gekommen sind?',
+    answers: [
+      { text: '1. Nichts Besonderes, außer einer leichten Leistungsreduzierung,', correct: false },
+      { text: '2. die Tendenz zur Rotation des Flügels, die man jedoch durch Gewichtsverlagerung und Bremse ausgleichen kann,', correct: false },
+      { text: '3. eine sehr gefährliche Situation, angefangen mit der Gefahr, zum Hang zurückzukehren, bis zu der, die Krawatte nicht lösen und so den Schirm schlecht steuern zu können.', correct: true }
+    ]
+  },
+  {
+    question: '9027 Beim Bruch einer Steuerleine befindet man sich in einer Notlage. Wie verhält man sich?',
+    answers: [
+      { text: '1. Man steuert durch leichten Zug der beiden hinteren Fangleinen und fliegt möglichst sanft nur die Manöver, die nötig sind, um auf die Landewiese zu gelangen,', correct: true },
+      { text: '2. man steuert mit der intakten Bremse und versucht, mit wenigen Manövern auf den Hang zurückzukehren,', correct: false },
+      { text: '3. man steuert mit der intakten Bremse und auf der anderen Seite mit der hinteren Fangleine.', correct: false }
+    ]
+  },
+  {
+    question: '9028 Stimmt es, dass die europäische Homologierung für Gleitschirme einen sehr hohen Sicherheitsgrad garantiert, wenn man eine für die eigenen Fähigkeiten geeignete Schirmklasse fliegt und alle Normen für den Typ und die Einstellung des Gurtzeugs beachtet, wie von der Homologierung vorgesehen sind?',
+    answers: [
+      { text: '1. Nein, diese Aussage ist nicht glaubwürdig,', correct: false },
+      { text: '2. ja, aber nur für Standardsegel,', correct: false },
+      { text: '3. ja, es stimmt.', correct: true }
+    ]
+  },
+  {
+    question: '9029 Kann man behaupten, dass, hinsichtlich der Sicherheit beim Fliegen, ein homologierter Schirm der Basisklasse auch die Sicherheit eines unerfahrenen Piloten im Falle einer ungewöhnlichen Flugsituation garantiert?',
+    answers: [
+      { text: '1. Ja, unabhängig von anderen Faktoren,', correct: false },
+      { text: '2. ganz sicher nicht,', correct: false },
+      { text: '3. ja, aber nur wenn alle Normen für den Typ und die Einstellung des Gurtzeugs beachtet werden, wie von der Homologierung vorgesehen.', correct: true }
+    ]
+  },
+  {
+    question: '9030 Was muss ein Pilot für seine eigene Sicherheit wissen, wenn er einen homologierten Schirm fliegt, der nicht der Basisklasse angehört, und in eine ungewöhnliche Flugsituation gelangt?',
+    answers: [
+      { text: '1. Dass er unmittelbar und korrekt eingreifen muss, um den normalen Flugzustand wieder herzustellen und nicht in eine gefährliche Sequenz von ungewöhnlichen Konfigurationen hineinzugeraten,', correct: true },
+      { text: '2. dass es länger als 4 Sekunden braucht, bis der Schirm wieder normal fliegt,', correct: false },
+      { text: '3. dass er so steuern muss, wie es ihm sein Instinkt in der jeweiligen Situation sagt.', correct: false }
+    ]
+  },
+  {
+    question: '9031    Ungewöhnliche Flugsituationen. Spontaner Seitenklapper, Tendenz des Flügels zur Autorotation. Der Pilot muss als Erstes die Kontrolle über die Flugrichtung wiedererlangen und erst dann mit der Bremse eingreifen, um den Schirm wieder zu öffnen:',
+    answers: [
+      { text: '1. falsch. Die Öffnung des Segels ist grundlegend, das muss man sofort tun,', correct: false },
+      { text: '2. richtig. Man erlangt die Kontrolle der Flugrichtung zuerst durch Gewichtsverlagerung und dann mit der Bremse, nicht zu stark, um den Stall zu vermeiden (durch die reduzierte Fläche, wegen des Einklappers ist der Schirm stärker belastet),', correct: true },
+      { text: '3. falsch. Man versucht, den Flügel zu öffnen, und falls das nicht möglich ist, zieht man sofort den Rettungsschirm.', correct: false }
+    ]
+  },
+  {
+    question: '9032 Ungewöhnliche Flugsituationen. Frontaler Einklapper, der Flügel hat die Tendenz, hinter den Piloten zu schießen. Der Pilot muss als Erstes beide Bremsen loslassen und dann bereit sein, das Vorschießen des Flügels zu kontrollieren:',
+    answers: [
+      { text: '1. richtig, für gewöhnlich ist es kein Problem, den Schirm wieder zu öffnen, wenn man beide Bremsen loslässt, aber das nachfolgende Pendeln könnte problematisch sein und muss kontrolliert werden,', correct: true },
+      { text: '2. richtig, wenn auch das nachfolgende Pendeln kein Problem darstellt,', correct: false },
+      { text: '3. falsch, man muss warten, bis der Flügel sich von alleine öffnet, um unnötiges Pendeln zu vermeiden, und falls es trotzdem vorkommt, zieht man den Rettungsschirm.', correct: false }
+    ]
+  },
+  {
+    question: '9033   Ungewöhnliche Flugsituationen. Die Folge eines zu starken asymmetrischen Ziehens der Bremse ist der asymmetrische Stall, der zu einer plötzlichen Rotation des Flügels um die vertikale Achse, die flache Negativ-Spirale, führt. Um dieser Konfiguration vorzubeugen, muss der Pilot:',
+    answers: [
+      { text: '1. auch die andere Bremse ziehen und dann beide Bremsen sanft loslassen,', correct: false },
+      { text: '2. die stärker gezogene Bremse loslassen und die andere gleichzeitig herunterziehen,', correct: false },
+      { text: '3. beide Bremsen sofort symmetrisch loslassen und bereit sein, das eventuelle Vorschießen des Schirms zu kontrollieren.', correct: true }
+    ]
+  },
+  {
+    question: '9034    Ungewöhnliche Flugsituationen. Was geschieht bei einem Post-Stall mit dem Gleitschirm?',
+    answers: [
+      { text: '1.   Nichts Besonderes,', correct: false },
+      { text: '2.   das hängt davon ab, wie man wieder eine normale Flugsituation erlangt,', correct: false },
+      { text: '3.   nach einem Stall kann der Flügel vollständig in sich zusammenfallen, das kann sehr gefährlich sein.', correct: true }
+    ]
+  },
+  {
+    question: '9035   Ungewöhnliche Flugsituationen. Nach einem „B“-Stall stellt man fest, dass man eine sehr hohe Sinkgeschwindigkeit hat und kaum vorwärts kommt, obwohl der Flügel völlig geöffnet und in der Vertikalen befindet. Was kann geschehen sein?',
+    answers: [
+      { text: '1. Man könnte in den Sackflug geraten sein, weil man die B-Leinen wahrscheinlich zu langsam losgelassen hat und/oder das Segelmaterial ist veraltert und porös,', correct: true },
+      { text: '2. man könnte in den Sackflug geraten sein, weil man die B-Leinen wahrscheinlich zu langsam losgelassen hat, die Porosität des Flügels hat aber damit nichts zu tun,', correct: false },
+      { text: '3. nichts Besonderes, die hohe Sinkgeschwindigkeit ist normal beim Austritt aus dem „B“-Stall.', correct: false }
+    ]
+  },
+  {
+    question: '9036 Ungewöhnliche Flugsituationen. Um aus einem Sackflug herauszukommen, sollte der Pilot, nachdem er beide Bremsen losgelassen hat:',
+    answers: [
+      { text: '1. mit Entschlossenheit eine der vorderen Fangleinen ziehen, und wenn das nicht wirkt, eine Bremse ziehen,', correct: false },
+      { text: '2. die „A“-Leinen nach vorne schieben und das Speedsystem betätigen. Falls das nicht funktioniert, beide Bremsen gleichzeitig ziehen und wieder loslassen, und nur als Notlösung eine Bremse ganz durchziehen und wieder loslassen, dabei muss man sich eine starke Drehung oder eine „flache Negativspirale“ erwarten,', correct: true },
+      { text: '3. eine Bremse ganz durchziehen, beide Bremsen gleichzeitig „pumpen“, als Notlösung beide A-Leinen nach vorne schieben.', correct: false }
+    ]
+  },
+  {
+    question: '9037 Beim Start mit dem Drachen bei starkem Wind ist es gefährlich, wenn ein Helfer den Drachen beim Anlaufen festhält, denn:',
+    answers: [
+      { text: '1. der Helfer könnte mitgerissen oder sogar hochgezogen werden,', correct: false },
+      { text: '2. nicht alle Helfer machen es richtig, auch wenn der Pilot es ihnen genauestens erklärt hat,', correct: false },
+      { text: '3. auch ein erfahrener Helfer hat nicht die Sensibilität des Piloten und könnte die Position und die Startrichtung des Drachens gefährlich beeinflussen.', correct: true }
+    ]
+  },
+  {
+    question: '9038    Was passiert, wenn der Pilot sich in seinem Gurtzeug falsch oder gar nicht an den Drachen aufhängt?',
+    answers: [
+      { text: '1.   Das hat immer sehr schwerwiegende Folgen,', correct: true },
+      { text: '2.   er muss so schnell wie möglich landen,', correct: false },
+      { text: '3.   er muss den Drachen so wenig manövrieren wie möglich, um nicht abzustürzen.', correct: false }
+    ]
+  },
+  {
+    question: '9039    Sollte man trotz Pitch-Leinen in den Flattersturz geraten, muss man:',
+    answers: [
+      { text: '1.   versuchen, den Drachen mit dem Gewicht und dem Steuer zu lenken, der Rettungsschirm kann warten,', correct: false },
+      { text: '2.   sofort den Rettungsschirm ziehen, bevor die Fallgeschwindigkeit zu hoch wird,', correct: true },
+      { text: '3.   warten, bis man schnell genug fällt, damit sich der Rettungsschirm sofort öffnet.', correct: false }
+    ]
+  },
+  {
+    question: '9040 Die Belastungen, durch die das Fliegen eines Loopings mit dem Drachen gefährlich wird, werden erzeugt durch:',
+    answers: [
+      { text: '1. die Geschwindigkeit, die man benötigt, um den Looping einzuleiten,', correct: false },
+      { text: '2. die Lastvervielfachung während des gesamten Loopings,', correct: false },
+      { text: '3. die Geschwindigkeit, die man benötigt, um den Looping einzuleiten und durch die Lastvervielfachung während des gesamten Loopings.', correct: true }
+    ]
+  },
+  {
+    question: '9041    Was versteht man unter einem Tumbling mit dem Drachen?',
+    answers: [
+      { text: '1.   Eine plötzliche, unkontrollierte Rotation um die Hochachse,', correct: false },
+      { text: '2.   eine plötzliche, unkontrollierte Rotation um die Querachse,', correct: true },
+      { text: '3.   eine plötzliche, unkontrollierte Rotation um die Längsachse.', correct: false }
+    ]
+  },
+  {
+    question: '9042    Welche der folgenden Elemente tragen dazu bei, ein Tumbling mit dem Drachen zu verursachen?',
+    answers: [
+      { text: '1.   Ein zu hoher Anstellwinkel bei starker Turbulenz,', correct: true },
+      { text: '2.   eine zu hohe Fluggeschwindigkeit bei starker Turbulenz,', correct: false },
+      { text: '3.   Kurvenflug bei aufsteigenden Luftmassen.', correct: false }
+    ]
+  },
+  {
+    question: '9043    Stimmt es, dass der Pilot beim SWF den Rettungsschirm nur als Notlösung ziehen soll, also nur dann, wenn es nicht möglich ist, das Fluggerät so zu steuern, dass man einen sicheren Landeplatz erreichen kann?',
+    answers: [
+      { text: '1. Nein, das ist Aberglaube, man sollte den Rettungsschirm in einer ungewöhnlichen Flugsituation immer so schnell wie möglich benützen,', correct: false },
+      { text: '2. ja, aber man braucht sich dabei nicht beeilen,', correct: false },
+      { text: '3. ja, aber wenn man entschließt, ihn zu ziehen, sollte man es so schnell wie möglich tun, damit er sich rechtzeitig öffnet und er wegen der steigenden Fallgeschwindigkeit nicht zu stark belastet wird.', correct: true }
+    ]
+  },
+  {
+    question: '9044 In welchen Situationen, außer dem Unwohlsein des Piloten, sollte man den Rettungsschirm ziehen und wie?',
+    answers: [
+      { text: '1. Bei starker Turbulenz, wenn die Steuerung des Fluggerätes schwierig ist, man zieht den Griff mit Entschlossenheit nach oben,', correct: false },
+      { text: '2. wenn man durch eine starke Thermik in eine Wolke hochgesaugt wird; man zieht den Griff nach unten, damit der Rettungsschirm sich vom Flügel entfernt,', correct: false },
+      { text: '3. bei einem Gerätebruch oder einer ungewöhnlichen Flugsituation, wenn man keine Möglichkeit mehr hat, durch Gewichtsverlagerung oder Steuerung das Gerät wieder in einen normalen Flugzustand zu bekommen und zu halten; man zieht den Griff mit Entschlossenheit und so, dass der Rettungsschirm sich möglichst vom Flügel entfernt.', correct: true }
+    ]
+  },
+  {
+    question: '9045   Warum sollte man den Rettungsschirm nur als letzte Notlösung ziehen, auch wenn aus statistischen Daten hervorgeht, dass er fast immer funktioniert?',
+    answers: [
+      { text: '1. Weil die Statistiken nicht glaubwürdig sind,', correct: false },
+      { text: '2. wenn er auch fast immer funktioniert, ist er kaum oder gar nicht steuerbar, so dass man nicht die Möglichkeit hat, einen sicheren Landeplatz auszuwählen,', correct: true },
+      { text: '3. weil er meistens nicht nötig ist: wenn man die Ruhe bewahrt, kommt man aus jeder ungewöhnlichen Flugsituation wieder heraus.', correct: false }
+    ]
+  }
 
 
 
