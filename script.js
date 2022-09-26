@@ -55,9 +55,9 @@ function selectAnswer(e) {
   const correct = selectedButton.dataset.correct
   setStatusClass(document.body, correct)
   alleAntworten++;
+  Punkte.innerHTML = (RichtigeAntworten / alleAntworten * 100).toFixed()
   if (correct == "true") {
     RichtigeAntworten++;
-    Punkte.innerHTML = (RichtigeAntworten / alleAntworten * 100).toFixed()
   }
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
