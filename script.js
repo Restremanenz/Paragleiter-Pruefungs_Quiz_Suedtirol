@@ -563,9 +563,9 @@ const questions = [
   {
     question: '2017    Warum bezieht man sich auch auf die Wirbelströmung, wenn die Rede von Aerodynamik ist?',
     answers: [
-      { text: '1.   Weil das in der Physik gebräuchlich ist.', correct: true },
+      { text: '1.   Weil das in der Physik gebräuchlich ist.', correct: false },
       { text: '2.   Die Wirbelströmung gibt es nicht.', correct: false },
-      { text: '3.   Weil sich im Flug sämtliche Kräfte innerhalb der Wirbelströmung abspielen.', correct: false }
+      { text: '3.   Weil sich im Flug sämtliche Kräfte innerhalb der Wirbelströmung abspielen.', correct: true }
     ]
   },
   {
@@ -663,7 +663,7 @@ const questions = [
     ]
   },
   {
-    question: '2029    Beim Erzeugen von Auftrieb läuft die Strömung folgenderweise über das Flügelrofil:',
+    question: '2029    Beim Erzeugen von Auftrieb läuft die Strömung folgenderweise über das Flügelprofil:',
     answers: [
       { text: '1.   mit unterschiedlicher Geschwindigkeit,', correct: true },
       { text: '2.   mit unterschiedlicher Dichte,', correct: false },
@@ -1405,9 +1405,9 @@ const questions = [
     question: '2117    Was passiert, wenn wir im Flug mit einem bestimmten Anstellwinkel die Flächenbelastung erhöhen?',
     answers: [
       {
-        text: '1.   Die Fluggeschwindigkeit und das Sinken werden größer, ', correct: false
+        text: '1.   Die Fluggeschwindigkeit und das Sinken werden größer, ', correct: true
       },
-      { text: '2.   die Fluggeschwindigkeit und das Sinken werden geringer,', correct: true },
+      { text: '2.   die Fluggeschwindigkeit und das Sinken werden geringer,', correct: false },
       { text: '3.   die Fluggeschwindigkeit wird höher und das Sinken geringer.', correct: false }
     ]
   },
@@ -2203,7 +2203,7 @@ const questions = [
     ]
   },
   {
-    question: '5033    Auf der Nordhalbkugel erzeugt die Coriolis-Kraft eine Abweichung der Luftmassen, die sich von einem Hochdruckgebiet zu einem Tiefdruckgebiet bewegen, nach:',
+    question: '5033 Auf der Nordhalbkugel erzeugt die Coriolis-Kraft eine Abweichung der Luftmassen, die sich von einem Hochdruckgebiet zu einem Tiefdruckgebiet bewegen, nach: (Achtung:Skript Lösung ist nicht korrekt!)',
     answers: [
       { text: '1. rechts,', correct: false },
       { text: '2. links,', correct: true },
@@ -3209,7 +3209,7 @@ const questions = [
     ]
   },
   {
-    question: '7018 Wie fliegen wir bei meteorologischem Wind einen möglichst runden Vollktreis?',
+    question: '7018 Wie fliegen wir bei meteorologischem Wind einen möglichst runden Vollkreis?',
     answers: [
       { text: '1. Indem wir die Flügelneigung während der Drehung so verändern, dass wir die Versetzung über dem Grund ausgleichen,', correct: true },
       { text: '2. indem wir die seitliche Neigung verstärken, wenn wir den Wind von vorne haben,', correct: false },
@@ -3806,7 +3806,7 @@ const questions = [
   {
     question: '8013 Bei unserem letzten Flug hatten wir eine harte Landung, das Trapez und die Basis sind gebogen.',
     answers: [
-      { text: '1. Wir ersetzen das Trazezrohr und biegen die Basis wieder perfekt gerade, bevor wir das nächste Mal fliegen,', correct: false },
+      { text: '1. Wir ersetzen das Trapezrohr und biegen die Basis wieder perfekt gerade, bevor wir das nächste Mal fliegen,', correct: false },
       { text: '2. wir fliegen erst wieder, nachdem wir die Basis und das Trapezrohr durch Originalersatzteile ersetzt haben,', correct: true },
       { text: '3. wir biegen das Trapezrohr und die Basis gerade, bevor wir das nächste Mal fliegen.', correct: false }
     ]
