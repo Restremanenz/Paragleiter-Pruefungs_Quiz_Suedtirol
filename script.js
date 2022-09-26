@@ -3,6 +3,9 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const Punkte = document.getElementById("Punkte")
+
+let RichtigeAntworten = 0, alleAntworten = 0
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -51,6 +54,11 @@ function selectAnswer(e) {
   const selectedButton = e.target
   const correct = selectedButton.dataset.correct
   setStatusClass(document.body, correct)
+  alleAntworten++;
+  if (correct == "true") {
+    RichtigeAntworten++;
+    Punkte.innerHTML = (RichtigeAntworten / alleAntworten * 100).toFixed()
+  }
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
@@ -1686,7 +1694,7 @@ const questions = [
       {
         text: '2. der Verletzte von Fachpersonal und mit geeigneten Mitteln transportiert wird, währenddessen man sich um seine persönlichen Sachen kümmert und eventuell Verwandte benachrichtigt, ', correct: true
       },
-      { text: '3. man ruft die Polizei, die sich dann um Alles Andere kümmert.', correct: false }
+      { text: '3. man ruft die Polizei, die sich dann um alles Andere kümmert.', correct: false }
     ]
   },
   {
