@@ -55,10 +55,10 @@ function selectAnswer(e) {
   const correct = selectedButton.dataset.correct
   setStatusClass(document.body, correct)
   alleAntworten++;
-  Punkte.innerHTML = (RichtigeAntworten / alleAntworten * 100).toFixed()
   if (correct == "true") {
     RichtigeAntworten++;
   }
+  Punkte.innerHTML = (RichtigeAntworten / alleAntworten * 100).toFixed()
   Array.from(answerButtonsElement.children).forEach(button => {
     setStatusClass(button, button.dataset.correct)
   })
@@ -3393,7 +3393,7 @@ const questions = [
     ]
   },
   {
-    question: '7040 Wie fliegt man mit einem nassen Gleitschirm am Sichersten?7040    Wie fliegt man mit einem nassen Gleitschirm am Sichersten?',
+    question: '7040 Wie fliegt man mit einem nassen Gleitschirm am Sichersten?',
     answers: [
       { text: '1.   Ohren anlegen um schneller zu sinken,', correct: false },
       { text: '2.   Ein nasser Gleitschirm bedeutet überhaupt kein Problem,', correct: false },
