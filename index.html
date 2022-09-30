@@ -11,8 +11,12 @@
   <title>Paraglider Quiz Südtirol</title>
 </head>
 
-<body>
+<body onkeydown="WeiterBtn(event)">
   <div class="container">
+    <h4 class="Info">
+      <span>Frage Nr. <span id="FrageNr">1</span></span>
+      <span>Richtige Antworten: <span id="Punkte">0</span> %</span>
+    </h4>
     <div id="question-container" class="hide">
       <div id="question">Question</div>
       <div id="answer-buttons" class="btn-grid">
@@ -26,9 +30,6 @@
       <button id="start-btn" class="start-btn btn">Start</button>
       <button id="next-btn" class="next-btn btn hide">Weiter</button>
     </div>
-  </div>
-  <div style="position: absolute; bottom: 10%;">
-    Richtige Antworten: <test id="Punkte">0</test>%
   </div>
 </body>
 
