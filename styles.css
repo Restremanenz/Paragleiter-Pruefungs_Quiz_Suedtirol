@@ -87,3 +87,18 @@ body.wrong {
 .hide {
   display: none;
 }
+
+span {
+  display: inline-block;
+}
+
+h4.Info {
+  text-align: justify;
+  margin: 0px;
+}
+
+h4.Info:after {
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
