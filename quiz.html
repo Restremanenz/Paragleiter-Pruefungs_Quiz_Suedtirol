@@ -1,0 +1,16 @@
+<h1>Paragleiter Quiz Südtirol</h1>
+
+<h4 class="stats">
+    <span>Frage Nr. <span id="questionnr">1</span></span>
+    <span>Score: <span id="score">0</span> %</span>
+</h4>
+
+<div id="question-container">
+    <div id="question">Questions will go here</div>
+    <div id="answer-buttons" class="btn-grid"></div>
+
+    <div id="controls">
+        <button class="button" onclick="location.href='/'">Home</button>
+        <button class="button hide" id="next-btn" onclick="currentQuestionIndex++; setNextQuestion(); questionnrElement.innerHTML = count+1;">Next</button>
+    </div>
+</div>
