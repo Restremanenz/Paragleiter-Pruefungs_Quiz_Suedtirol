@@ -1,5 +1,5 @@
 const routes = {
-    "/": {
+    "/Paragleiter-Pruefungs_Quiz_Suedtirol": {
         template: "menu.html",
     },
     questions: {
@@ -11,8 +11,8 @@ const locationHandler = async () => {
     var location = window.location.hash.replace("#", "");
     const len = location.length;
 
-    if (len == 0) {
-        location = "/";
+    if (location[0] == '/') {
+        location = "/Paragleiter-Pruefungs_Quiz_Suedtirol";
     } else {
         questionMode = Number(location[len-1]);
         location = location.slice(0, len-1);
