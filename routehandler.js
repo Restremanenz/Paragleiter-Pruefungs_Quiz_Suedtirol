@@ -11,7 +11,7 @@ const locationHandler = async () => {
     var location = window.location.hash.replace("#", "");
     const len = location.length;
 
-    if (location[0] == '/') {
+    if (len == 0) {
         location = "/Paragleiter-Pruefungs_Quiz_Suedtirol";
     } else {
         questionMode = Number(location[len-1]);
