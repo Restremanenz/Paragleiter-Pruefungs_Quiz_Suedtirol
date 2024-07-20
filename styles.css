@@ -127,3 +127,29 @@ button.wrong {
 .hide {
     display: none;
 }
+
+#donate-button-container {
+    margin-top: 10px;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fa-instagram {
+  background: #c7c7c7;
+  background-image: none;
+  margin: 0 10px;
+}
+
+#socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
