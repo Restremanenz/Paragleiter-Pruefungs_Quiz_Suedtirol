@@ -1,3 +1,6 @@
+<script data-goatcounter="https://restremanz.goatcounter.com/count"
+        async src="gc.zgo.at/count.js"></script> 
+
 const QuestionModes = Object.freeze({
     CHAPTER1: 1,
     CHAPTER2: 2,
