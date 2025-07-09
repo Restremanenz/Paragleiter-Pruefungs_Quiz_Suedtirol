@@ -3498,120 +3498,118 @@ const questionslist = [
         { text: '3. zum Aufziehen legen wir den Schirm gegen den Wind aus, dann laufen wir in diese Richtung weiter.', correct: false }
         ]
     },
-    {
-        question: '7062   Beim Start mit dem Drachen gibt es eine Sicherheitskontrolle, die besonders genau durchgeführt werden muss, da schon mehrere Unfälle passiert sind:',
-        answers: [
-        { text: '1. die Position des Drachens kontrollieren,', correct: false },
-        { text: '2. kontrollieren, dass der Pilot am Drachen richtig eingehängt ist,', correct: true },
-        { text: '3. kontrollieren, dass der Rettungsschirm richtig gepackt ist.', correct: false }
-        ]
-    },
-    {
-        question: '7063 Wie kann man am Besten kontrollieren, ob der Pilot am Drachen richtig eingehängt ist?',
-        answers: [
-        { text: '1. Ein Helfer hält das Kielrohr des Drachens, der Pilot macht die Liegeprobe und kontrolliert außer der korrekten Aufhängung auch die Position des Körpers zum Steuerbügel,', correct: true },
-        { text: '2. man hängt den Karabiner ein und kontrolliert, ob er auch wirklich eingehängt ist,', correct: false },
-        { text: '3. ein Helfer kontrolliert, dass der Karabiner richtig eingehängt ist.', correct: false }
-        ]
-    },
-    {
-        question: '7064 Was muss man beachten, wenn man bei starkem Wind mit dem Drachen starten möchte?',
-        answers: [
-        { text: '1. Dass ein einziger Helfer direkt vor dem Start das Flügelende hochhebt,', correct: false },
-        { text: '2. sichergehen, dass während des Starts kein Helfer den Drachen zurückhält,', correct: true },
-        { text: '3. dass die Helfer während des Starts das Kielrohr richtig schieben.', correct: false }
-        ]
-    },
-    {
-        question: '7065 Ist es möglich, mit dem Drachen bei Wind mit 45° zur Startlinie zu starten und wie?',
-        answers: [
-        { text: '1. Nein, auch wenn er nicht stark ist,', correct: false },
-        { text: '2. ja, wenn er nicht zu stark ist, indem man mit etwas Vorhaltewinkel in die größte Hangneigung startet,', correct: true },
-        { text: '3. ja, auch wenn er stark ist, Hauptsache man läuft gegen den Wind.', correct: false }
-        ]
-    },
-    {
-        question: '7066 Bei zu starkem Schieben am Steuerbügel, während des Starts,',
-        answers: [
-        { text: '1. hebt er früher ab und kann leichter eventuelle Hindernisse überfliegen,', correct: false },
-        { text: '2. hebt er langsamer ab und kann den Drachen nach dem Start besser kontrollieren,', correct: false },
-        { text: '3. findet der Start mit einem zu hohen Anstellwinkel statt, daraus ergibt sich eine steile Flugbahn mit hoher Stall- Gefahr.', correct: true }
-        ]
-    },
-    {
-        question: '7067 Kann man mit dem Drachen den Start abbrechen, und welche Gefahren kann das mit sich führen?',
-        answers: [
-        { text: '1. Ja, nur wenn unbedingt notwendig, dabei kann der Drachen beschädigt werden und der Pilot sich verletzen,', correct: true },
-        { text: '2. ja, immer wenn man es für nötig hält, ohne besondere Gefahren, wenn man die richtige Technik kennt,', correct: false },
-        { text: '3. ja, wenn man es direkt vor dem Abheben macht und genügend Erfahrung hat.', correct: false }
-        ]
-    },
-    {
-        question: '7068 Zu welchem Zeitpunkt nach dem Start mit dem Drachen soll der Pilot in die Liegeposition gehen?',
-        answers: [
-        { text: '1. Sobald wie möglich nach dem Abheben,', correct: false },
-        { text: '2. nachdem er vollkommen die Kontrolle über die Richtung und die Geschwindigkeit erlangt hat, etwas weg vom Hang', correct: true },
-        { text: '3. es gibt keine besonderen Einschränkungen oder Techniken dafür.', correct: false }
-        ]
-    },
-
-    {
-        question: '7069 Wie kann man beim Drachenfliegen den Anstellwinkel verändern?',
-        answers: [
-        { text: '1. Nur durch die „Overdrive“-Vorrichtung,', correct: false },
-        { text: '2. Körpergewicht auf den Steuerbügel, dann schieben oder ziehen,', correct: false },
-        { text: '3. durch Schieben oder Ziehen des Steuerbügels.', correct: true }
-        ]
-    },
-    {
-        question: '7070 Welche ist die richtige Sequenz für das Fliegen einer Kurve mit dem Drachen?',
-        answers: [
-        { text: '1. Fahrt aufnehmen, seitliche Gewichtsverlagerung und leichtes Schieben am Steuerbügel, proportional zur Geschwindigkeit und zur Querneigung,', correct: true },
-        { text: '2. Fahrt aufnehmen, Körpergewicht auf die Seite und dann wieder in die Mitte verlagern,', correct: false },
-        { text: '3. Fahrt aufnehmen, Steuerbügel asymmetrisch schieben, damit sich der Drachen um seine eigene Achse dreht, Körpergewicht auf die Seite und dann wieder in die Mitte verlagern.', correct: false }
-        ]
-    },
-    {
-        question: '7071 Welcher Steuerfehler verursacht meistens ein Abschmieren über den Flügel beim Drachen?',
-        answers: [
-        { text: '1. Wegen einer Gewichtsverlagerung auf die zur Kurve entgegengesetzten Seite,', correct: false },
-        { text: '2. falsch koordinierte Steuerbewegung und zu geringes Schieben in der Kurve im Verhältnis zur Querneigung,', correct: true },
-        { text: '3. zu starkes Schieben des Steuerbügels in der Kurve.', correct: false }
-        ]
-    },
-    {
-        question: '7072  Wie macht man eine Roll-Bewegung mit dem Drachen?',
-        answers: [
-        { text: '1. Man dreht den Körper um die Achse des Steuerbügels,', correct: false },
-        { text: '2. man verlagert den Körper seitlich und dreht ihn um die Achse des Steuerbügels,', correct: false },
-        { text: '3. man verlagert den Körper nach rechts oder links, immer parallel zum Kielrohr.', correct: true }
-        ]
-    },
-    {
-        question: '7073  Ein Starrflügler dreht:',
-        answers: [
-        { text: '1. mit Hilfe einer aerodynamischen Steuerung, zusätzlich zur Gewichtsverlagerung,', correct: true },
-        { text: '2. durch eine aerodynamische Steuerung,', correct: false },
-        { text: '3. durch die Gewichtsverlagerung.', correct: false }
-        ]
-    },
-    {
-        question: '7074 Wie führt man in einer sicheren Höhe einen korrekten Stall-Versuch mit dem Drachen durch?',
-        answers: [
-        { text: '1. Durch progressives Schieben am Steuerbügel, um den Anstellwinkel zu erhöhen, gleich nach dem Strömungsabriss wieder Fahrt aufnehmen,', correct: true },
-        { text: '2. man drückt die Segellatten nach vorne, um den Anstellwinkel zu erhöhen, und hält diese Position mindestens 30 Sekunden lang,', correct: false },
-        { text: '3. nach der Fahrtaufnahme drückt man den Steuerbügel fest durch, um den Anstellwinkel schnell zu erhöhen.', correct: false }
-        ]
-    },
-    {
-        question: '7075 Wie kann ein Drachenflieger am Besten eine Thermik ausnützen?',
-        answers: [
-        { text: '1. Mit dem geringsten Sinken fliegen und Vollkreise drehen, um in der Thermik zu bleiben,', correct: true },
-        { text: '2. mit der höchsten Leistung fliegen und Vollkreise drehen, um in der Thermik zu bleiben,', correct: false },
-        { text: '3. mit der Mindestgeschwindigkeit enge Vollkreise fliegen, um in der Thermik zu bleiben.', correct: false }
-        ]
-    },
-
+    // {
+    //     question: '7062   Beim Start mit dem Drachen gibt es eine Sicherheitskontrolle, die besonders genau durchgeführt werden muss, da schon mehrere Unfälle passiert sind:',
+    //     answers: [
+    //     { text: '1. die Position des Drachens kontrollieren,', correct: false },
+    //     { text: '2. kontrollieren, dass der Pilot am Drachen richtig eingehängt ist,', correct: true },
+    //     { text: '3. kontrollieren, dass der Rettungsschirm richtig gepackt ist.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7063 Wie kann man am Besten kontrollieren, ob der Pilot am Drachen richtig eingehängt ist?',
+    //     answers: [
+    //     { text: '1. Ein Helfer hält das Kielrohr des Drachens, der Pilot macht die Liegeprobe und kontrolliert außer der korrekten Aufhängung auch die Position des Körpers zum Steuerbügel,', correct: true },
+    //     { text: '2. man hängt den Karabiner ein und kontrolliert, ob er auch wirklich eingehängt ist,', correct: false },
+    //     { text: '3. ein Helfer kontrolliert, dass der Karabiner richtig eingehängt ist.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7064 Was muss man beachten, wenn man bei starkem Wind mit dem Drachen starten möchte?',
+    //     answers: [
+    //     { text: '1. Dass ein einziger Helfer direkt vor dem Start das Flügelende hochhebt,', correct: false },
+    //     { text: '2. sichergehen, dass während des Starts kein Helfer den Drachen zurückhält,', correct: true },
+    //     { text: '3. dass die Helfer während des Starts das Kielrohr richtig schieben.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7065 Ist es möglich, mit dem Drachen bei Wind mit 45° zur Startlinie zu starten und wie?',
+    //     answers: [
+    //     { text: '1. Nein, auch wenn er nicht stark ist,', correct: false },
+    //     { text: '2. ja, wenn er nicht zu stark ist, indem man mit etwas Vorhaltewinkel in die größte Hangneigung startet,', correct: true },
+    //     { text: '3. ja, auch wenn er stark ist, Hauptsache man läuft gegen den Wind.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7066 Bei zu starkem Schieben am Steuerbügel, während des Starts,',
+    //     answers: [
+    //     { text: '1. hebt er früher ab und kann leichter eventuelle Hindernisse überfliegen,', correct: false },
+    //     { text: '2. hebt er langsamer ab und kann den Drachen nach dem Start besser kontrollieren,', correct: false },
+    //     { text: '3. findet der Start mit einem zu hohen Anstellwinkel statt, daraus ergibt sich eine steile Flugbahn mit hoher Stall- Gefahr.', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: '7067 Kann man mit dem Drachen den Start abbrechen, und welche Gefahren kann das mit sich führen?',
+    //     answers: [
+    //     { text: '1. Ja, nur wenn unbedingt notwendig, dabei kann der Drachen beschädigt werden und der Pilot sich verletzen,', correct: true },
+    //     { text: '2. ja, immer wenn man es für nötig hält, ohne besondere Gefahren, wenn man die richtige Technik kennt,', correct: false },
+    //     { text: '3. ja, wenn man es direkt vor dem Abheben macht und genügend Erfahrung hat.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7068 Zu welchem Zeitpunkt nach dem Start mit dem Drachen soll der Pilot in die Liegeposition gehen?',
+    //     answers: [
+    //     { text: '1. Sobald wie möglich nach dem Abheben,', correct: false },
+    //     { text: '2. nachdem er vollkommen die Kontrolle über die Richtung und die Geschwindigkeit erlangt hat, etwas weg vom Hang', correct: true },
+    //     { text: '3. es gibt keine besonderen Einschränkungen oder Techniken dafür.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7069 Wie kann man beim Drachenfliegen den Anstellwinkel verändern?',
+    //     answers: [
+    //     { text: '1. Nur durch die „Overdrive“-Vorrichtung,', correct: false },
+    //     { text: '2. Körpergewicht auf den Steuerbügel, dann schieben oder ziehen,', correct: false },
+    //     { text: '3. durch Schieben oder Ziehen des Steuerbügels.', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: '7070 Welche ist die richtige Sequenz für das Fliegen einer Kurve mit dem Drachen?',
+    //     answers: [
+    //     { text: '1. Fahrt aufnehmen, seitliche Gewichtsverlagerung und leichtes Schieben am Steuerbügel, proportional zur Geschwindigkeit und zur Querneigung,', correct: true },
+    //     { text: '2. Fahrt aufnehmen, Körpergewicht auf die Seite und dann wieder in die Mitte verlagern,', correct: false },
+    //     { text: '3. Fahrt aufnehmen, Steuerbügel asymmetrisch schieben, damit sich der Drachen um seine eigene Achse dreht, Körpergewicht auf die Seite und dann wieder in die Mitte verlagern.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7071 Welcher Steuerfehler verursacht meistens ein Abschmieren über den Flügel beim Drachen?',
+    //     answers: [
+    //     { text: '1. Wegen einer Gewichtsverlagerung auf die zur Kurve entgegengesetzten Seite,', correct: false },
+    //     { text: '2. falsch koordinierte Steuerbewegung und zu geringes Schieben in der Kurve im Verhältnis zur Querneigung,', correct: true },
+    //     { text: '3. zu starkes Schieben des Steuerbügels in der Kurve.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7072  Wie macht man eine Roll-Bewegung mit dem Drachen?',
+    //     answers: [
+    //     { text: '1. Man dreht den Körper um die Achse des Steuerbügels,', correct: false },
+    //     { text: '2. man verlagert den Körper seitlich und dreht ihn um die Achse des Steuerbügels,', correct: false },
+    //     { text: '3. man verlagert den Körper nach rechts oder links, immer parallel zum Kielrohr.', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: '7073  Ein Starrflügler dreht:',
+    //     answers: [
+    //     { text: '1. mit Hilfe einer aerodynamischen Steuerung, zusätzlich zur Gewichtsverlagerung,', correct: true },
+    //     { text: '2. durch eine aerodynamische Steuerung,', correct: false },
+    //     { text: '3. durch die Gewichtsverlagerung.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7074 Wie führt man in einer sicheren Höhe einen korrekten Stall-Versuch mit dem Drachen durch?',
+    //     answers: [
+    //     { text: '1. Durch progressives Schieben am Steuerbügel, um den Anstellwinkel zu erhöhen, gleich nach dem Strömungsabriss wieder Fahrt aufnehmen,', correct: true },
+    //     { text: '2. man drückt die Segellatten nach vorne, um den Anstellwinkel zu erhöhen, und hält diese Position mindestens 30 Sekunden lang,', correct: false },
+    //     { text: '3. nach der Fahrtaufnahme drückt man den Steuerbügel fest durch, um den Anstellwinkel schnell zu erhöhen.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7075 Wie kann ein Drachenflieger am Besten eine Thermik ausnützen?',
+    //     answers: [
+    //     { text: '1. Mit dem geringsten Sinken fliegen und Vollkreise drehen, um in der Thermik zu bleiben,', correct: true },
+    //     { text: '2. mit der höchsten Leistung fliegen und Vollkreise drehen, um in der Thermik zu bleiben,', correct: false },
+    //     { text: '3. mit der Mindestgeschwindigkeit enge Vollkreise fliegen, um in der Thermik zu bleiben.', correct: false }
+    //     ]
+    // },
     {
         question: '7076 Was versteht man unter „Tumbling“?',
         answers: [
@@ -3620,30 +3618,30 @@ const questionslist = [
         { text: '3. einen Überschlag um die Querachse nach vorne, aufgrund starker Turbulenz, (z.B. Rotoren).', correct: true }
         ]
     },
-    {
-        question: '7077 Wie kann man die Trimmgeschwindigkeit beim Drachen vergrößern?',
-        answers: [
-        { text: '1. Indem man den Aufhängepunkt des Piloten nach hinten versetzt,', correct: false },
-        { text: '2. indem man den Aufhängepunkt des Piloten nach vorne versetzt,', correct: true },
-        { text: '3. indem man den Aufhängepunkt des Piloten nach oben versetzt.', correct: false }
-        ]
-    },
-    {
-        question: '7078 Welche ist die richtige Endphase beim Landen mit dem Drachen bei starkem Wind?',
-        answers: [
-        { text: '1. Korrekter Anflug in Bodennähe mit horizontaler Flugbahn bis zum Augenblick des „Drückens“, um den Drachen mit der Mindestgeschwindigkeit zu stallen,', correct: true },
-        { text: '2. korrekter Endanflug in 4-5 Metern Höhe, leicht Fahrt aufnehmen bis zum Augenblick des „Drückens“, um den Drachen mit guter Geschwindigkeit zu stallen,', correct: false },
-        { text: '3. korrekter Endanflug in Bodennähe mit horizontaler Flugbahn, um in der Nähe des Landepunktes den Drachen entschlossen zu „drücken“, unabhängig von der Geschwindigkeit.', correct: false }
-        ]
-    },
-    {
-        question: '7079 Wann richtet sich der Pilot beim Landen mit dem Drachen in die vertikale Körperposition auf?',
-        answers: [
-        { text: '1. Sobald er merkt, dass der Drachen beim Endanflug durch den Bodeneffekt beeinflusst wird,', correct: false },
-        { text: '2. in Bodennähe beim Endanflug, kurz vor der Landung,', correct: true },
-        { text: '3. so spät wie möglich, um den Drachen zu stallen.', correct: false }
-        ]
-    },
+    // {
+    //     question: '7077 Wie kann man die Trimmgeschwindigkeit beim Drachen vergrößern?',
+    //     answers: [
+    //     { text: '1. Indem man den Aufhängepunkt des Piloten nach hinten versetzt,', correct: false },
+    //     { text: '2. indem man den Aufhängepunkt des Piloten nach vorne versetzt,', correct: true },
+    //     { text: '3. indem man den Aufhängepunkt des Piloten nach oben versetzt.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7078 Welche ist die richtige Endphase beim Landen mit dem Drachen bei starkem Wind?',
+    //     answers: [
+    //     { text: '1. Korrekter Anflug in Bodennähe mit horizontaler Flugbahn bis zum Augenblick des „Drückens“, um den Drachen mit der Mindestgeschwindigkeit zu stallen,', correct: true },
+    //     { text: '2. korrekter Endanflug in 4-5 Metern Höhe, leicht Fahrt aufnehmen bis zum Augenblick des „Drückens“, um den Drachen mit guter Geschwindigkeit zu stallen,', correct: false },
+    //     { text: '3. korrekter Endanflug in Bodennähe mit horizontaler Flugbahn, um in der Nähe des Landepunktes den Drachen entschlossen zu „drücken“, unabhängig von der Geschwindigkeit.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '7079 Wann richtet sich der Pilot beim Landen mit dem Drachen in die vertikale Körperposition auf?',
+    //     answers: [
+    //     { text: '1. Sobald er merkt, dass der Drachen beim Endanflug durch den Bodeneffekt beeinflusst wird,', correct: false },
+    //     { text: '2. in Bodennähe beim Endanflug, kurz vor der Landung,', correct: true },
+    //     { text: '3. so spät wie möglich, um den Drachen zu stallen.', correct: false }
+    //     ]
+    // },
     ],
 
     chapter8 = [
@@ -3728,54 +3726,54 @@ const questionslist = [
         { text: '3. aus Leichtmaterial bestehen, um das Gurtzeug nicht noch schwerer zu machen.', correct: false }
         ]
     },
-    {
-        question: '8011 Worauf muss bei Kabel und Verspannungen des Drachens geachtet werden?',
-        answers: [
-        { text: '1. Dass sie unter den Presshülsen nicht beschädigt sind,', correct: false },
-        { text: '2. nur, dass die Presshülsen in gutem Zustand sind,', correct: false },
-        { text: '3. dass die Presshülsen in gutem Zustand sind und die Kabel und Verspannungen keine Verschleißerscheinungen in der Nähe der Presshülsen aufweisen.', correct: true }
-        ]
-    },
-    {
-        question: '8012 Wenn wir feststellen, dass ein Kabel des Drachens abgenutzt oder gesplissen ist:',
-        answers: [
-        { text: '1. ersetzen wir ihn sofort, bevor wir wieder fliegen,', correct: true },
-        { text: '2. reparieren wir ihn, so gut es geht, denn wir können ihn nicht gleich ersetzen,', correct: false },
-        { text: '3. starten wir und geben Acht, die Struktur nicht mit besonderen Manövern zu belasten.', correct: false }
-        ]
-    },
-    {
-        question: '8013 Bei unserem letzten Flug hatten wir eine harte Landung, das Trapez und die Basis sind gebogen.',
-        answers: [
-        { text: '1. Wir ersetzen das Trapezrohr und biegen die Basis wieder perfekt gerade, bevor wir das nächste Mal fliegen,', correct: false },
-        { text: '2. wir fliegen erst wieder, nachdem wir die Basis und das Trapezrohr durch Originalersatzteile ersetzt haben,', correct: true },
-        { text: '3. wir biegen das Trapezrohr und die Basis gerade, bevor wir das nächste Mal fliegen.', correct: false }
-        ]
-    },
-    {
-        question: '8014 Die Imprägnierung und Mylarbeschichtung eines Drachens leidet besonders unter:',
-        answers: [
-        { text: '1. den Infrarotstrahlen,', correct: false },
-        { text: '2. den Ultraviolettstrahlen,', correct: true },
-        { text: '3. einem besonders trockenen Klima.', correct: false }
-        ]
-    },
-    {
-        question: '8015 Wird ein Drachen längere Zeit gelagert, sollte man darauf achten, dass:',
-        answers: [
-        { text: '1. er trocken ist und im eigenem Sack im Trockenen gelagert wird, entfernt von Wärmequellen und nicht dem direkten Sonnenlicht ausgesetzt,', correct: true },
-        { text: '2. nach dem letzten Flug im eigenen Sack verpackt wird und im Keller auf den speziellen Wandstützen so gelagert wird, dass er nicht dem Sonnenlicht ausgesetzt ist,', correct: false },
-        { text: '3. ohne den Sack zusammengelegt wird und im Keller oder in der Garage auf speziellen Wandstützen so gelagert wird, dass er vor Sonnenlicht geschützt ist.', correct: false }
-        ]
-    },
-    {
-        question: '8016 Wenn man merkt, dass bestimmte Teile des Drachens verrostet sind:',
-        answers: [
-        { text: '1. sollte man ihn mit besonderen Rostentfernern entfernen,', correct: false },
-        { text: '2. kann man trotzdem fliegen, wenn der betroffene Teil nicht beschädigt ist,', correct: false },
-        { text: '3. sollte man noch vor dem nächsten Flug den betroffenen Teil mit einem anderen Orginalteil ersetzen, der genau die gleichen Eigenschaften aufweist.', correct: true }
-        ]
-    },
+    // {
+    //     question: '8011 Worauf muss bei Kabel und Verspannungen des Drachens geachtet werden?',
+    //     answers: [
+    //     { text: '1. Dass sie unter den Presshülsen nicht beschädigt sind,', correct: false },
+    //     { text: '2. nur, dass die Presshülsen in gutem Zustand sind,', correct: false },
+    //     { text: '3. dass die Presshülsen in gutem Zustand sind und die Kabel und Verspannungen keine Verschleißerscheinungen in der Nähe der Presshülsen aufweisen.', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: '8012 Wenn wir feststellen, dass ein Kabel des Drachens abgenutzt oder gesplissen ist:',
+    //     answers: [
+    //     { text: '1. ersetzen wir ihn sofort, bevor wir wieder fliegen,', correct: true },
+    //     { text: '2. reparieren wir ihn, so gut es geht, denn wir können ihn nicht gleich ersetzen,', correct: false },
+    //     { text: '3. starten wir und geben Acht, die Struktur nicht mit besonderen Manövern zu belasten.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '8013 Bei unserem letzten Flug hatten wir eine harte Landung, das Trapez und die Basis sind gebogen.',
+    //     answers: [
+    //     { text: '1. Wir ersetzen das Trapezrohr und biegen die Basis wieder perfekt gerade, bevor wir das nächste Mal fliegen,', correct: false },
+    //     { text: '2. wir fliegen erst wieder, nachdem wir die Basis und das Trapezrohr durch Originalersatzteile ersetzt haben,', correct: true },
+    //     { text: '3. wir biegen das Trapezrohr und die Basis gerade, bevor wir das nächste Mal fliegen.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '8014 Die Imprägnierung und Mylarbeschichtung eines Drachens leidet besonders unter:',
+    //     answers: [
+    //     { text: '1. den Infrarotstrahlen,', correct: false },
+    //     { text: '2. den Ultraviolettstrahlen,', correct: true },
+    //     { text: '3. einem besonders trockenen Klima.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '8015 Wird ein Drachen längere Zeit gelagert, sollte man darauf achten, dass:',
+    //     answers: [
+    //     { text: '1. er trocken ist und im eigenem Sack im Trockenen gelagert wird, entfernt von Wärmequellen und nicht dem direkten Sonnenlicht ausgesetzt,', correct: true },
+    //     { text: '2. nach dem letzten Flug im eigenen Sack verpackt wird und im Keller auf den speziellen Wandstützen so gelagert wird, dass er nicht dem Sonnenlicht ausgesetzt ist,', correct: false },
+    //     { text: '3. ohne den Sack zusammengelegt wird und im Keller oder in der Garage auf speziellen Wandstützen so gelagert wird, dass er vor Sonnenlicht geschützt ist.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '8016 Wenn man merkt, dass bestimmte Teile des Drachens verrostet sind:',
+    //     answers: [
+    //     { text: '1. sollte man ihn mit besonderen Rostentfernern entfernen,', correct: false },
+    //     { text: '2. kann man trotzdem fliegen, wenn der betroffene Teil nicht beschädigt ist,', correct: false },
+    //     { text: '3. sollte man noch vor dem nächsten Flug den betroffenen Teil mit einem anderen Orginalteil ersetzen, der genau die gleichen Eigenschaften aufweist.', correct: true }
+    //     ]
+    // },
     {
         question: '8017 Was muss bei der Instandhaltung des Rettungsschirmes beachtet werden?',
         answers: [
@@ -4099,54 +4097,54 @@ const questionslist = [
         { text: '3. eine Bremse ganz durchziehen, beide Bremsen gleichzeitig „pumpen“, als Notlösung beide A-Leinen nach vorne schieben.', correct: false }
         ]
     },
-    {
-        question: '9037 Beim Start mit dem Drachen bei starkem Wind ist es gefährlich, wenn ein Helfer den Drachen beim Anlaufen festhält, denn:',
-        answers: [
-        { text: '1. der Helfer könnte mitgerissen oder sogar hochgezogen werden,', correct: false },
-        { text: '2. nicht alle Helfer machen es richtig, auch wenn der Pilot es ihnen genauestens erklärt hat,', correct: false },
-        { text: '3. auch ein erfahrener Helfer hat nicht die Sensibilität des Piloten und könnte die Position und die Startrichtung des Drachens gefährlich beeinflussen.', correct: true }
-        ]
-    },
-    {
-        question: '9038    Was passiert, wenn der Pilot sich in seinem Gurtzeug falsch oder gar nicht an den Drachen aufhängt?',
-        answers: [
-        { text: '1.   Das hat immer sehr schwerwiegende Folgen,', correct: true },
-        { text: '2.   er muss so schnell wie möglich landen,', correct: false },
-        { text: '3.   er muss den Drachen so wenig manövrieren wie möglich, um nicht abzustürzen.', correct: false }
-        ]
-    },
-    {
-        question: '9039    Sollte man trotz Pitch-Leinen in den Flattersturz geraten, muss man:',
-        answers: [
-        { text: '1.   versuchen, den Drachen mit dem Gewicht und dem Steuer zu lenken, der Rettungsschirm kann warten,', correct: false },
-        { text: '2.   sofort den Rettungsschirm ziehen, bevor die Fallgeschwindigkeit zu hoch wird,', correct: true },
-        { text: '3.   warten, bis man schnell genug fällt, damit sich der Rettungsschirm sofort öffnet.', correct: false }
-        ]
-    },
-    {
-        question: '9040 Die Belastungen, durch die das Fliegen eines Loopings mit dem Drachen gefährlich wird, werden erzeugt durch:',
-        answers: [
-        { text: '1. die Geschwindigkeit, die man benötigt, um den Looping einzuleiten,', correct: false },
-        { text: '2. die Lastvervielfachung während des gesamten Loopings,', correct: false },
-        { text: '3. die Geschwindigkeit, die man benötigt, um den Looping einzuleiten und durch die Lastvervielfachung während des gesamten Loopings.', correct: true }
-        ]
-    },
-    {
-        question: '9041    Was versteht man unter einem Tumbling mit dem Drachen?',
-        answers: [
-        { text: '1.   Eine plötzliche, unkontrollierte Rotation um die Hochachse,', correct: false },
-        { text: '2.   eine plötzliche, unkontrollierte Rotation um die Querachse,', correct: true },
-        { text: '3.   eine plötzliche, unkontrollierte Rotation um die Längsachse.', correct: false }
-        ]
-    },
-    {
-        question: '9042    Welche der folgenden Elemente tragen dazu bei, ein Tumbling mit dem Drachen zu verursachen?',
-        answers: [
-        { text: '1.   Ein zu hoher Anstellwinkel bei starker Turbulenz,', correct: true },
-        { text: '2.   eine zu hohe Fluggeschwindigkeit bei starker Turbulenz,', correct: false },
-        { text: '3.   Kurvenflug bei aufsteigenden Luftmassen.', correct: false }
-        ]
-    },
+    // {
+    //     question: '9037 Beim Start mit dem Drachen bei starkem Wind ist es gefährlich, wenn ein Helfer den Drachen beim Anlaufen festhält, denn:',
+    //     answers: [
+    //     { text: '1. der Helfer könnte mitgerissen oder sogar hochgezogen werden,', correct: false },
+    //     { text: '2. nicht alle Helfer machen es richtig, auch wenn der Pilot es ihnen genauestens erklärt hat,', correct: false },
+    //     { text: '3. auch ein erfahrener Helfer hat nicht die Sensibilität des Piloten und könnte die Position und die Startrichtung des Drachens gefährlich beeinflussen.', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: '9038    Was passiert, wenn der Pilot sich in seinem Gurtzeug falsch oder gar nicht an den Drachen aufhängt?',
+    //     answers: [
+    //     { text: '1.   Das hat immer sehr schwerwiegende Folgen,', correct: true },
+    //     { text: '2.   er muss so schnell wie möglich landen,', correct: false },
+    //     { text: '3.   er muss den Drachen so wenig manövrieren wie möglich, um nicht abzustürzen.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '9039    Sollte man trotz Pitch-Leinen in den Flattersturz geraten, muss man:',
+    //     answers: [
+    //     { text: '1.   versuchen, den Drachen mit dem Gewicht und dem Steuer zu lenken, der Rettungsschirm kann warten,', correct: false },
+    //     { text: '2.   sofort den Rettungsschirm ziehen, bevor die Fallgeschwindigkeit zu hoch wird,', correct: true },
+    //     { text: '3.   warten, bis man schnell genug fällt, damit sich der Rettungsschirm sofort öffnet.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '9040 Die Belastungen, durch die das Fliegen eines Loopings mit dem Drachen gefährlich wird, werden erzeugt durch:',
+    //     answers: [
+    //     { text: '1. die Geschwindigkeit, die man benötigt, um den Looping einzuleiten,', correct: false },
+    //     { text: '2. die Lastvervielfachung während des gesamten Loopings,', correct: false },
+    //     { text: '3. die Geschwindigkeit, die man benötigt, um den Looping einzuleiten und durch die Lastvervielfachung während des gesamten Loopings.', correct: true }
+    //     ]
+    // },
+    // {
+    //     question: '9041    Was versteht man unter einem Tumbling mit dem Drachen?',
+    //     answers: [
+    //     { text: '1.   Eine plötzliche, unkontrollierte Rotation um die Hochachse,', correct: false },
+    //     { text: '2.   eine plötzliche, unkontrollierte Rotation um die Querachse,', correct: true },
+    //     { text: '3.   eine plötzliche, unkontrollierte Rotation um die Längsachse.', correct: false }
+    //     ]
+    // },
+    // {
+    //     question: '9042    Welche der folgenden Elemente tragen dazu bei, ein Tumbling mit dem Drachen zu verursachen?',
+    //     answers: [
+    //     { text: '1.   Ein zu hoher Anstellwinkel bei starker Turbulenz,', correct: true },
+    //     { text: '2.   eine zu hohe Fluggeschwindigkeit bei starker Turbulenz,', correct: false },
+    //     { text: '3.   Kurvenflug bei aufsteigenden Luftmassen.', correct: false }
+    //     ]
+    // },
     {
         question: '9043    Stimmt es, dass der Pilot beim SWF den Rettungsschirm nur als Notlösung ziehen soll, also nur dann, wenn es nicht möglich ist, das Fluggerät so zu steuern, dass man einen sicheren Landeplatz erreichen kann?',
         answers: [
