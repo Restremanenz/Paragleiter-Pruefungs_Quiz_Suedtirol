@@ -73,7 +73,7 @@ function selectAnswer(selectedButton) {
         score++;
     }
 
-    scoreElement.innerHTML = (score / count * 100).toFixed()
+    scoreElement.innerHTML = (score / count * 100).toFixed().toString() + '%';
 
     Array.from(document.getElementById('answer-buttons').children).forEach(button => {
         button.disabled = true;
