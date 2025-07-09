@@ -18,7 +18,8 @@ let questionContainerElement;
 let questionElement;
 let answerButtonsElement;
 let questionnrElement;
-let scoreElement
+let scoreElement;
+let categoryElement;
 
 let shuffledQuestions, currentQuestionIndex;
 let score = 0;
@@ -30,6 +31,39 @@ function startGame() {
         questions = [].concat.apply([], questionslist);
     } else {
         questions = questionslist[questionMode-1];
+    }
+
+    switch (questionMode) {
+        case 0:
+            categoryElement.innerHTML = "Alle Fragen";
+            break;
+        case 1:
+            categoryElement.innerHTML = "1. Normative und Gesetzgebung";
+            break;
+        case 2:
+            categoryElement.innerHTML = "2. Aerodynamik";
+            break;
+        case 3:
+            categoryElement.innerHTML = "3. Erste Hilfe";
+            break;
+        case 4:
+            categoryElement.innerHTML = "4. Flug-Pathophysiologie";
+            break;
+        case 5:
+            categoryElement.innerHTML = "5. Meteorologie";
+            break;
+        case 6:
+            categoryElement.innerHTML = "6. Instrumente";
+            break;
+        case 7:
+            categoryElement.innerHTML = "7. Flugpraxis";
+            break;
+        case 8:
+            categoryElement.innerHTML = "8. Materialkunde";
+            break;
+        case 9:
+            categoryElement.innerHTML = "9. Flugsicherheit";
+            break;
     }
 
     shuffledQuestions = questions.sort(() => Math.random() - .5);

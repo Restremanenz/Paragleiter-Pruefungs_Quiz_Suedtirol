@@ -28,6 +28,7 @@ const locationHandler = async () => {
     answerButtonsElement = document.getElementById('answer-buttons');
     questionnrElement = document.getElementById('questionnr');
     scoreElement = document.getElementById('score');
+    categoryElement = document.getElementById('category');
 
     startGame();
 };
