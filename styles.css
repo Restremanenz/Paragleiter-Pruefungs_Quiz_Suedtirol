@@ -136,7 +136,16 @@ button.wrong {
     margin-top: 10px;
 }
 
-.fa {
+.fa-brands {
+  padding: 15px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 40%;
+}
+
+.fas {
   padding: 15px;
   font-size: 20px;
   width: 20px;
@@ -146,6 +155,18 @@ button.wrong {
 }
 
 .fa-instagram {
+  background: #c7c7c7;
+  background-image: none;
+  margin: 0 10px;
+}
+
+.fa-github {
+  background: #c7c7c7;
+  background-image: none;
+  margin: 0 10px;
+}
+
+.fa-hand-holding-usd {
   background: #c7c7c7;
   background-image: none;
   margin: 0 10px;
